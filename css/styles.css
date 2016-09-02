@@ -1,0 +1,472 @@
+/******* Global Styles: Mobile First *******/
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #39DCBC;
+  transition: all .3s ease-in-out;
+}
+
+body {
+  padding-top: 65px;
+}
+
+/* Override Bootstrap float for center alignment */ 
+.center-block {
+  float: none;
+}
+
+/* Fonts */
+
+h1, h2, h3, h4 {
+  font-family: Josefin Sans;
+  font-weight: 400;
+}
+
+h2, h3, h4, p {
+  color: #212338;
+}
+
+h1 {
+  color: #fff;
+  margin-top: 35px;
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+
+h2.main {
+  color: #39DCBC; /* #91ECCF too light? */
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-top: 35px;
+
+}
+
+h3 {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+.nav>li, p {
+  font-family: Hind;
+  font-weight: 300; 
+  font-size: 12px;
+}
+
+p.footer, p.cta, a.cta {
+  color: #A4B0FF; 
+}
+
+p.footer {
+  font-size: 10px;
+  margin-bottom: 0;
+}
+
+/* Images */
+.img-responsive {
+  width: 100%;
+  max-width: none;
+}
+
+/** Contact Section **/
+#contact {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.contact-project {
+  margin-top: 24.5px;
+}
+
+p.cta {
+  margin-bottom: 20px;
+}
+
+/* Hire Me Button */
+button {
+  border: 2px solid #A4B0FF;
+  height: 54px;
+  width: 120px;
+  border-radius: 5%;
+  background-color: #1e255d;
+  font-size: 20px;
+}
+
+button:hover {
+  border: solid 2px #39DCBC;
+  color: #1e255d;
+  background: #39DCBC;
+  transition: all .5s ease-in-out;
+}
+
+a.cta:hover {
+  text-decoration: none;
+}
+
+/* Social Media Icons */
+.btn-social {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  /*border: 2px solid #1e255d;*/
+  border-radius: 100%;
+  text-align: center;
+  font-size: 22px;
+  line-height: 43px;
+}    
+
+.btn-outline {
+  margin-top: 15px;
+  /*border: solid 2px #1e255d;*/
+  font-size: 22px;
+  color: #A4B0FF;
+  background: 0 0;
+  transition: all .5s ease-in-out;
+}
+
+.btn-outline:hover {
+    /*border: solid 2px #4dcca3;*/
+  color: #1e255d;
+  background: #39DCBC;
+}
+
+/* Spacing Around Social Media */
+#contact ul {
+  margin-top: 10px;
+  margin-bottom: 22px;
+}
+
+/******* Navigation Bars *******/
+
+/** Homepage Nav **/
+.navbar-default, #contact {
+  background-color: #1e255d;
+}
+
+.navbar-header {
+  display: inline-block;
+}
+
+.navbar-nav>li.homepage, .navbar-nav {
+  float: left;
+}
+
+.navbar-nav.navbar-right:last-child {
+  margin-right: -15px;
+}
+
+.navbar-right {
+  float: right;
+}
+
+.navbar-brand {
+  padding-top: 11.5px;
+  padding-bottom: 11.5px;
+}
+
+/** Project Nav **/
+.nav.nav-center {
+  display: inline-block;
+  left: 0;
+  right: 0;
+  margin: 0;
+  float: none;
+}
+
+#project-nav ul {
+  display: inline-block;
+  margin-top: 0;
+}
+
+#project-nav .navbar-nav {
+  float: none!important;
+}
+
+.nav.nav-center li,.nav.nav-center li  a{
+  display:inline;
+  float:none;
+}
+
+.nav>li.next-project>a {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+/* iPhone 5 small project nav */
+.nav>li.next-project>a {
+  padding: 0 0;
+}
+
+.nav-center{
+  line-height: 2.4;
+}
+
+.navbar-inner {
+  text-align: center;
+  padding: 10px 0; /* remove this .navbar-inner style later */
+}
+
+
+/* Highlight Arrow Background */
+.nav>li.next-project>a:hover {
+  background-color: #39DCBC;
+  transition: all .3s ease-in-out;
+} 
+
+/******* Homepage *******/
+
+/* Header Background Color Overlay on Pattern */
+.blue-cover {
+  background-color: rgba(12, 26, 139, 0.5);
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  background-image: url("../img/Sharp_Edges.png");
+  background-repeat: repeat;
+}
+
+header p {
+  padding-bottom: 35px;
+}
+
+p.main {
+  margin-bottom: 10px;
+  line-height: 1.6;
+  color: #A4B0FF;
+}
+
+p.main a {
+  color: #7A89FF;
+}
+
+p.main a:hover {
+  color: #39DCBC; 
+  text-decoration: none;
+  -webkit-transition: all ease-in-out .3s;
+  -moz-transition: all ease-in-out .3s;
+  transition: all ease-in-out .3s;
+}
+
+/** Projects Section **/
+
+/* spacing around section */
+#projects {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+/* Project Box */
+.portfolio-item {
+  right: 0;
+  margin-bottom: 30px;
+}
+
+/* make whole box a link, don't exceed orignal image size */
+.project-link {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  max-width: 485px; 
+}
+
+
+/* Project Hover Elements */
+.caption {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background: rgba(30,37,93,.95);
+  -webkit-transition: all ease .5s;
+  -moz-transition: all ease .5s;
+  transition: all ease .5s;
+}
+
+.caption:hover {
+  opacity: 1;
+}
+
+.caption-content {
+    position: absolute;
+    top: 42%;
+    width: 100%;
+    margin-top: -12px;
+    text-align: center;
+}
+
+.caption-content h4 {
+  color: #fff;
+}
+
+.caption-content p {
+  color: #7A89FF;
+}
+
+.caption-content p:hover {
+  color: #39DCBC; 
+  /*color: #4dcca3;  too bright */
+  -webkit-transition: all ease .3s;
+  -moz-transition: all ease .3s;
+  transition: all ease .3s;
+}
+
+/******* Project Pages *******/
+
+p.case-study {
+  text-align: left;
+  line-height: 2;
+}
+
+a h4 {
+  color: #4dcca3;
+}
+
+h4.case-study {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+img.project-intro {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+img.project-work {
+  margin-bottom: 10.5px;
+}
+
+@media (min-width: 480px) {
+
+/* Remove iPhone 5 small project nav styles*/
+.nav>li.next-project>a {
+  padding: 12px 15px;
+}
+
+.nav-center{
+  line-height: 4;
+}
+
+.nav>li, p { 
+  font-size: 14px;
+}
+
+.navbar-inner {
+  padding: 0 0; 
+}
+/**/
+
+p.footer {
+  font-size: 12px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+}
+
+@media (min-width: 768px) {
+
+body {
+  padding-top: 60px;
+}  
+
+.caption-content h4 {
+  font-size: 30px;
+}
+
+header p {
+  padding-bottom: 50px;
+}
+
+img.project-intro {
+  margin-top: 20px;
+}
+
+img.project-work {
+  margin-top: 10px;
+  margin-bottom: 20.5px;
+}
+
+h1 {
+  font-size: 72px;
+  margin-top: 50px;
+}
+
+h2.main {
+  font-size: 30px;
+}
+
+}
+
+@media (min-width: 992px) {
+
+#contact {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+#projects {
+  padding-top: 90px;
+  padding-bottom: 60px;
+}
+
+h1 {
+  margin-top: 100px;
+}
+
+header p {
+  padding-bottom: 100px;
+}
+
+}
+
+@media (min-width: 1200px) {
+
+h1 {
+  margin-top: 150px;
+}
+
+header p {
+  padding-bottom: 150px;
+}
+
+h2 {
+  font-size: 45px;
+  margin-top: 60px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+li, p {
+  font-size: 16px;
+}
+
+p.footer {
+  font-size: 14px;
+}
+
+.contact-project {
+  margin-top: 50.5px;
+}
+
+}
